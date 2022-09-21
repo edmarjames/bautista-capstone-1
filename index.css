@@ -22,8 +22,16 @@ body {
 	background-color: #2F394D;
 }
 
+.primary-text {
+	color: #2F394D;
+}
+
 .secondary-color {
 	background-color: #FFF7D6;
+}
+
+.secondary-text {
+	color: #FFF7D6;
 }
 
 .highlight-color {
@@ -125,6 +133,19 @@ body {
 .tab-content ul {
 	list-style-type: none;
 }
+.nav-pills .nav-link.active {
+	background-color: #00C6BC !important;
+}
+
+.nav-pills .nav-link:hover {
+	background-color: #00938c !important;
+	color: #2F394D;
+	border: 1px solid black;
+}
+
+#about-me-page {
+	transition: 0.5s;
+}
 /* ----------------------------------------- */
 
 
@@ -153,12 +174,19 @@ body {
 	background-position: right bottom;
 	background-attachment: fixed;
 }
+
+#contact-page {
+	transition: 0.5s;
+}
 /* ----------------------------------------- */
 
 
 /* ---------- FOOTER SECTION -------------- */
 #footer span a:hover {
 	color: #00C6BC;
+}
+.socials{
+	font-size: 3rem;
 }
 /* ----------------------------------------- */
 
@@ -178,14 +206,6 @@ body {
     transform: translateX(-50%);
     bottom: -17%;
     left: 50%;
-}
-
-.secondary-text {
-	color: #FFF7D6;;
-}
-
-.socials{
-	font-size: 3rem;
 }
 /* ------------ GLOBAL CLASSES ------------- */
 
