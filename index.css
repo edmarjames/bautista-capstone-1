@@ -1,0 +1,219 @@
+/* ----------------------------------------- */
+/*CSS Reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+/*Set font family for the whole body*/
+body {
+	font-family: 'Exo', sans-serif;
+}
+/* ----------------------------------------- */
+
+
+/* ---------- BACKGROUND COLORS ------------ */
+.primary-color {
+	background-color: #2F394D;
+}
+
+.secondary-color {
+	background-color: #FFF7D6;
+}
+
+.highlight-color {
+	background-color: #00C6BC;
+}
+
+.highlight-text {
+	color: #00C6BC;
+}
+
+.about-me-background {
+		background: rgb(47,57,77);
+		background: linear-gradient(11deg, rgba(47,57,77,1) 0%, rgba(47,57,77,1) 22%, rgba(255,255,255,1) 100%);
+}
+
+.gradient-color {
+		background: rgb(255,255,255);
+		background: linear-gradient(11deg, rgba(255,255,255,1) 9%, rgba(255,255,255,1) 35%, rgba(255,247,214,1) 56%);
+}
+
+.gradient-color-2 {
+		background: rgb(255,247,214);
+		background: linear-gradient(11deg, rgba(255,247,214,1) 6%, rgba(255,255,255,1) 41%, rgba(47,57,77,1) 91%);
+}
+/* ----------------------------------------- */
+
+
+/* ------------ NAVIGATION BAR -------------- */
+#brand-logo {
+	width: 50px;
+	height: 50px;
+}
+
+#navigation {
+	background-color: #2F394D;
+}
+
+#navigation ul li a {
+	color: #FFF7D6;
+}
+
+#navigation ul li a:hover{
+	color: #00C6BC;
+	border: 1px solid #00C6BC;
+	padding: 0.5em 0.5em;
+}
+
+#highlight {
+	color: #00C6BC;
+	font-weight: bold;
+}
+
+.navbar-brand:hover{
+	border: 1px solid #00C6BC;
+}
+/* ----------------------------------------- */
+
+
+/* ------------- LANDING PAGE -------------- */
+.landing-image {
+	background-image: url(./images/me.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-blend-mode: luminosity;
+}
+
+#landing-title {
+	font-size: 4.8rem;
+	color: #FFF7D6;
+}
+
+.landing-button {
+	border: 2px solid black;
+	color: #2F394D;
+	background: #00C6BC;
+	font-weight: 1000;
+	border-radius: 30px;
+	transition: scale 1s;
+	padding: 0.5em 1em;
+}
+
+.landing-button:hover {
+	text-decoration: none;
+	color: #FFF7D6;
+	background-color: #00938c;
+	transform: scale(1.1);
+}
+
+#my-name:hover {
+	color: #00C6BC;
+	-webkit-text-stroke: 0.5px #2F394D;
+}
+/* ----------------------------------------- */
+
+
+/* ---------- ABOUT ME SECTION -------------- */
+.tab-content ul {
+	list-style-type: none;
+}
+/* ----------------------------------------- */
+
+
+/* ---------- PROJECT SECTION -------------- */
+.title:hover{
+	color: #00C6BC;
+}
+
+.project-card {
+	padding: 2em;
+	color: #FFF7D6;
+	line-height: 2;
+}
+
+#project-page {
+	transition: 0.5s;
+}
+/* ----------------------------------------- */
+
+
+/* ---------- CONTACT SECTION -------------- */
+.contact-image{
+	background-image: url(./images/email_me.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+/* ----------------------------------------- */
+
+
+/* ---------- FOOTER SECTION -------------- */
+#footer span a:hover {
+	color: #00C6BC;
+}
+/* ----------------------------------------- */
+
+
+/* ------------ GLOBAL CLASSES ------------- */
+.header{
+	font-size: 3rem;
+}
+
+.header::after{
+    content: '';
+    width: 10%;
+    height: 5px;
+    background-color: #2F394D;
+    border-radius: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -17%;
+    left: 50%;
+}
+
+.secondary-text {
+	color: #FFF7D6;;
+}
+
+.socials{
+	font-size: 3rem;
+}
+/* ------------ GLOBAL CLASSES ------------- */
+
+
+/* ------------- MEDIA QUERY --------------- */
+@media only screen and (max-width: 768px){
+  .landing-image {
+    background-size: cover;
+		background-position: center bottom;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .landing-image {
+    background-size: cover;
+		background-position: center bottom;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .contact-image {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .contact-image {
+    background-size: cover;
+  }
+}
+/* ----------------------------------------- */

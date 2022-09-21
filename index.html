@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Responsive meta tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Boostrap Link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Box Icons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<!-- AOS CDN -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<title>Developer Portfolio</title>
+</head>
+<body>
+
+	<div class="container-fluid mx-0 px-0">
+
+		<!-- Navbar Start -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top primary-color" id="navigation">
+			<h1 class="navbar-brand mb-0 py-1 px-2 ml-5"><span id="highlight">e</span>dmar</h1>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav py-2 px-5 ml-auto">
+					<li class="nav-item mr-3">
+						<a class="nav-link py-2 px-3" href="#about-me-page">About me</a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link py-2 px-3" href="#project-page">Projects</a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link py-2 px-3" href="#contact-page">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Navbar End -->
+
+		<!-- Landing page -->
+		<div class="min-vh-100 text-white p-5 d-flex primary-color landing-image" id="landing-page">
+			<!-- <div class="row"> -->
+				<div class="d-flex flex-column mx-3 justify-content-center" data-aos="zoom-in">
+					<h1 id="landing-title">Hi, my name is <span id="my-name">Edmar</span></h1>
+					<h2>Full-Stack Developer</h2>
+					<a class="d-inline-block text-center mr-auto landing-button" href="#about-me-page">More about me</a>
+				</div>
+			<!-- </div> -->
+		</div>
+		<!-- Landing page end -->
+
+		<!-- About me page start -->
+		<div class="h-auto about-me-background p-5" id="about-me-page">
+			<h1 class="text-center title header my-5 position-relative">About me</h1>
+			<div class="row px-lg-5 mx-lg-5 px-md-3 mx-md-3" data-aos="fade-down">
+				<div class="col-12 primary-color p-5 secondary-text rounded">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+								<button class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="true">Profile</button>
+								<button class="nav-link" id="v-pills-hobbies-tab" data-toggle="pill" data-target="#v-pills-hobbies" type="button" role="tab" aria-controls="v-pills-hobbies" aria-selected="false">Hobbies</button>
+								<button class="nav-link" id="v-pills-work-experience-tab" data-toggle="pill" data-target="#v-pills-work-experience" type="button" role="tab" aria-controls="v-pills-work-experience" aria-selected="false">Work Experience</button>
+								<button class="nav-link" id="v-pills-education-tab" data-toggle="pill" data-target="#v-pills-education" type="button" role="tab" aria-controls="v-pills-education" aria-selected="false">Education</button>
+							</div>
+						</div>
+						<div class="col-lg-9 col-md-6">
+							<div class="tab-content" id="v-pills-tabContent">
+								<div class="tab-pane fade show active text-center mt-3 mb-0" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+									<p>Here are some basic informations about me</p>
+									<ul>
+										<li class="title"><p><i class='bx bx-calendar'></i> Age: 24</p></li>
+										<li class="title"><p><i class='bx bx-calendar'></i> Birthdate: May 6, 1998</p></li>
+										<li class="title"><p><i class='bx bx-plus-medical bx-flip-vertical' ></i> Birthplace: Angeles City, Pampanga</p></li>
+										<li class="title"><p><i class='bx bx-church' ></i> Religion: Born Again, Christian</p></li>
+										<li class="title"><p><i class='bx bx-ruler' ></i> Height: 5'2</p></li>
+									</ul>
+								</div>
+								<div class="tab-pane fade text-center mt-3 mb-0" id="v-pills-hobbies" role="tabpanel" aria-labelledby="v-pills-hobbies-tab">
+									<p>Here are some of my hobbies</p>
+									<ul>
+										<li class="title"><p><i class='bx bx-cycling' ></i> Cycling</p></li>
+										<li class="title"><p><i class='bx bx-book-reader'></i> Reading</p></li>
+										<li class="title"><p><i class='bx bx-code-alt' ></i> Coding</p></li>
+										<li class="title"><p><i class='bx bx-car' ></i> Travelling</p></li>
+									</ul>
+								</div>
+								<div class="tab-pane fade mt-3 mb-0" id="v-pills-work-experience" role="tabpanel" aria-labelledby="v-pills-work-experience-tab">
+									<ul>
+										<li>
+											<h5 class="title"><i class='bx bx-code-curly' ></i> Software Engineer: April, 2022 - Sept, 2022</h5>
+											<p class="mb-4">I previously worked as a Software Engineer for a couple of months for a BPO Company. We used Python, Django and MySQL for Backend Stack while HTML, CSS, Javascript and AngularJS for Frontend Stack</p>
+										</li>
+										<li>
+											<h5 class="title"><i class='bx bx-envelope' ></i> IT Support Associate: Sept, 2019 - Apr, 2022</h5>
+											<p class="mb-4">I was a IT helpdesk for 3 years for a BPO Company providing first level assistance via tickets, chat and phone call</p>
+										</li>
+										<li>
+											<h5 class="title"><i class='bx bx-hdd' ></i> Global Infrastructure Support Engineer</h5>
+											<p class="mb-4">This is my first job in the IT industry, I provide first level assistance via face to face troubleshooting and also for hardware, software, server and network issues</p>
+										</li>
+									</ul>
+								</div>
+								<div class="tab-pane fade text-center mt-3 mb-0" id="v-pills-education" role="tabpanel" aria-labelledby="v-pills-education-tab">
+									<h5 class="mt-3">I graduated from the Polytechnic University of the Philippines</h5>
+									<p class="title"><i class='bx bxs-graduation' ></i> SY 2015-2018</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- About me page end -->
+		
+		<!-- Projects page start -->
+		<div class="min-vh-100 p-5 gradient-color-2" id="project-page">
+			<h1 class="text-center title header my-5 position-relative">Future Projects</h1>
+
+			<!-- Cycling Crypto Start -->
+			<div class="row mx-lg-5 px-lg-5 mx-md-3 px-md-3 py-lg-1 my-lg-1 py-md-2 my-md-2 py-4 my-4 border-lg">
+				<div class="order-lg-1 order-1 col-lg-6 col-md-12 primary-color project-card rounded" data-aos="fade-right">
+					<h2 class="text-center title">Cycling Crypto</h2>
+					<p class="text-justify">There are a lot of NFT Games nowadays, however most of them are just being popular during it's release, It's time to level up the competetion. Introducing, the Cycling Crypto Web/Mobile app which will utilize the same blockchain technologies found on other NFT games. This will be the best app for Cycling Enthusiast, Professional Cyclist or even who cycles just for fun. More details about this app soon.</p>
+				</div>
+				<div class="order-lg-2 order-2 col-lg-3 col-md-6 col-6" data-aos="fade-left">
+					<img class="img-fluid" src="./gif/cycling-1.gif">
+				</div>
+				<div class="order-lg-4 order-4 col-lg-3 col-md-6 col-6" data-aos="fade-left">
+					<img class="img-fluid" src="./gif/cycling-2.gif">
+				</div>
+			</div>
+			<!-- Cycling Crypto End -->
+
+			<!-- Workout AI Start -->
+			<div class="row mx-lg-5 px-lg-5 mx-md-3 px-md-3 py-lg-1 my-lg-1 py-md-2 my-md-2 py-4 my-4 border-lg">
+				<div class="order-lg-1 order-2 col-lg-3 col-md-6 col-6" data-aos="fade-right">
+					<img class="img-fluid" src="./gif/workout-1.gif">	
+				</div>
+				<div class="order-lg-2 order-3 col-lg-3 col-md-6 col-6" data-aos="fade-right">
+					<img class="img-fluid" src="./gif/workout-2.gif">	
+				</div>
+				<div class="order-lg-2 order-1 col-lg-6 col-md-12 col-12 primary-color project-card rounded" data-aos="fade-left">
+					<h2 class="text-center title">Workout AI</h2>
+					<p class="text-justify">Workout AI will be your workout/gym buddy. This mobile app will help you plan your workout routine and will determine the best workout routine based on your body type, lifestyle, personality and other details about your physicality using maching learning technology. More details about this app soon.</p>
+				</div>
+			</div>
+			<!-- Workout AI End -->
+
+			<!-- iFocus start -->
+			<div class="row mx-lg-5 px-lg-5 mx-md-3 px-md-3 py-lg-1 my-lg-1 py-md-2 my-md-2 py-4 my-4 border-lg">
+				<div class="order-lg-1 order-1 col-lg-6 col-md-12 primary-color project-card rounded" data-aos="fade-right">
+					<h2 class="text-center title">iFocus</h2>
+					<p class="text-justify">Do you have problems studying? or even just concentrating on working a task? Worry no more since iFocus will help you on these problems. this app will be available on Web and Mobile platforms. iFocus will turn off all distractions for a certain period of time whether it is a text message, notification or other disturbance it also has a built it white noise generator so that you can listen to it while studying. More details about this app soon.</p>
+				</div>
+				<div class="order-lg-2 order-2 col-lg-3 col-md-6 col-6" data-aos="fade-left">
+					<img class="img-fluid" src="./gif/focus-1.gif">
+				</div>
+				<div class="order-lg-3 order-3 col-lg-3 col-md-6 col-6" data-aos="fade-left">
+					<img class="img-fluid mt-4" src="./gif/focus-2.gif">
+				</div>
+			</div>
+			<!-- iFocus end -->
+		</div>
+		<!-- Projects page end -->
+
+		<!-- pre-footer/Contact start -->
+		<div class="h-auto gradient-color p-5" id="contact-page">
+			<h1 class="text-center title header my-5 position-relative">Contact me</h1>
+			<div class="row mx-lg-5 px-lg-5 mx-md-3 px-md-3 py-lg-0 my-lg-0 py-md-2 my-md-2 py-4 my-4 contact-image">
+				<div class="col-lg-6 col-md-6 col-12 primary-color secondary-text p-lg-5 p-md-3 p-3 rounded">
+					<form>
+						<h2>Send me an email</h2>
+						<div class="form-group">
+							<label for="complete_name">Complete Name</label>
+							<input type="text" class="form-control" id="complete_name" aria-describedby="complete_name_Help" autocomplete>
+						</div>
+						<div class="form-group">
+							<label for="email_address">Email address</label>
+							<input type="email" class="form-control" id="email_address" aria-describedby="email_address_Help" autocomplete>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control" id="message" rows="5"></textarea>
+						</div>
+						<a href="mailto:edmarjamesbautista@gmail.com" class="btn highlight-color secondary-text">Send &#x27A2;</a>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- pre-footer/Contact end -->
+
+		<!-- Footer section start -->
+		<footer class="d-flex flex-row primary-color text-center px-lg-5 py-lg-2 px-md-2 py-md-2 px-1 py-2" id="footer">
+			<p class="d-lg-inline-flex flex-sm-row mr-auto align-items-end highlight-text">Copyright &copy; 2022, All rights reserved</p>
+			<span class="d-flex">
+				<a class="text-decoration-none highlight-text" href="https://www.facebook.com/edmarjames.bautista" target="_blank">
+					<i class='mx-3 socials bx bxl-facebook'></i>Facebook
+				</a>
+			</span>
+			<span class="d-flex">
+				<a class="text-decoration-none highlight-text" href="https://www.instagram.com/edmarusbautista/" target="_blank">
+					<i class='mx-3 socials bx bxl-instagram'></i>Instagram
+				</a>
+			</span>
+			<span class="d-flex">
+				<a class="text-decoration-none highlight-text" href="https://www.linkedin.com/in/edmar-james-bautista-3657231a3" target="_blank">
+					<i class='mx-3 socials bx bxl-linkedin'></i>LinkedIn
+				</a>
+			</span>
+			<span class="d-flex">
+				<a class="text-decoration-none highlight-text" href="https://gitlab.com/edmar.james" target="_blank">
+					<i class='mx-3 socials bx bxl-gitlab'></i>GitLab
+				</a>
+			</span>
+		</footer>
+		<!-- Footer section end -->
+
+	</div>
+
+	<!-- Bootstrap Script -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	<!-- End of Bootstrap Script -->
+
+	<!-- AOS Script -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<!-- AOS Script end -->
+
+</body>
+</html>
