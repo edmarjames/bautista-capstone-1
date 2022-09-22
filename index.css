@@ -43,18 +43,18 @@ body {
 }
 
 .about-me-background {
-		background: rgb(47,57,77);
-		background: linear-gradient(11deg, rgba(47,57,77,1) 0%, rgba(47,57,77,1) 22%, rgba(255,255,255,1) 100%);
+	background: rgb(47,57,77);
+	background: linear-gradient(11deg, rgba(47,57,77,1) 0%, rgba(47,57,77,1) 22%, rgba(255,255,255,1) 100%);
 }
 
 .gradient-color {
-		background: rgb(255,255,255);
-		background: linear-gradient(11deg, rgba(255,255,255,1) 9%, rgba(255,255,255,1) 35%, rgba(255,247,214,1) 56%);
+	background: rgb(255,255,255);
+	background: linear-gradient(11deg, rgba(255,255,255,1) 9%, rgba(255,255,255,1) 35%, rgba(255,247,214,1) 56%);
 }
 
 .gradient-color-2 {
-		background: rgb(255,247,214);
-		background: linear-gradient(11deg, rgba(255,247,214,1) 6%, rgba(255,255,255,1) 41%, rgba(47,57,77,1) 91%);
+	background: rgb(255,247,214);
+	background: linear-gradient(11deg, rgba(255,247,214,1) 6%, rgba(255,255,255,1) 41%, rgba(47,57,77,1) 91%);
 }
 /* ----------------------------------------- */
 
@@ -121,11 +121,6 @@ body {
 	background-color: #00938c;
 	transform: scale(1.1);
 }
-
-#my-name:hover {
-	color: #00C6BC;
-	-webkit-text-stroke: 0.5px #2F394D;
-}
 /* ----------------------------------------- */
 
 
@@ -185,6 +180,7 @@ body {
 #footer span a:hover {
 	color: #00C6BC;
 }
+
 .socials{
 	font-size: 3rem;
 }
